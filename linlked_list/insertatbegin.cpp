@@ -71,8 +71,8 @@ int main(){
     ll.display();
     
    ll.insertAtBegining(2);          
-    // ll.insertAtBegining(3);
-    // ll.insertAtBegining(4);
+    ll.insertAtBegining(3);
+    ll.insertAtBegining(4);
     ll.display();
 
 

@@ -10,21 +10,22 @@ using namespace std;
            // this->next=next;
         } 
    };
-    //   void display(Node *head){
+      void display(Node *head){
               
-    //           Node *temp= head;
-    //           while(temp!=NULL){
+              Node *temp= head;
+              while((temp)!=NULL){
                    
-    //                cout<<temp->val<<endl;
-    //                temp = temp->next;
+                   cout<<temp->val<<endl;
+                   temp = temp->next;
 
              
 
-    //           }
+              }
+            //   cout<<endl;
 
 
 
-    //   }
+      }
 
 
 int main(){
@@ -74,7 +75,7 @@ int main(){
             // }
 
 
-         // display(a);   
+         display(a);   
 
 
 }
